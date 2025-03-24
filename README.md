@@ -1,8 +1,4 @@
-## Project info
-
-**URL**: 
-
-# PureThoughts
+## PureThoughts
 
 A modern, responsive blog platform built with React, TypeScript, and Tailwind CSS. Features include dark/light mode, blog post management, category filtering, search functionality, and a clean minimalist design focused on readability and user experience.
 
