@@ -10,7 +10,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">MinimalBlog</h3>
+            <h3 className="text-lg font-semibold">PureThoughts</h3>
             <p className="text-muted-foreground max-w-xs">
               A minimalist blog platform focused on content and readability.
               Share your ideas with the world through clean, beautiful posts.
@@ -111,7 +111,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground text-sm">
-          <p>© {currentYear} MinimalBlog. All rights reserved.</p>
+          <p>© {currentYear} PureThoughts. All rights reserved.</p>
         </div>
       </div>
     </footer>
