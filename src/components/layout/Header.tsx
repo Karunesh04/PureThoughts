@@ -43,9 +43,9 @@ export function Header() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link
           to="/"
-          className="text-xl font-display font-semibold tracking-tight hover:opacity-80 transition-opacity"
+          className="text-3xl font-display font-semibold tracking-tight hover:opacity-80 transition-opacity"
         >
-          Minimal<span className="text-primary">Blog</span>
+          Pure<span className="text-primary">Thoughts</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -54,7 +54,7 @@ export function Header() {
             <Link
               key={link.name}
               to={link.path}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
+              className={`text-l font-medium transition-colors hover:text-primary ${
                 location.pathname === link.path
                   ? "text-primary"
                   : "text-foreground/70"
